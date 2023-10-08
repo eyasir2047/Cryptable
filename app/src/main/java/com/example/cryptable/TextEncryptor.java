@@ -11,7 +11,7 @@ import java.util.Base64;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
-public class AESText {
+public class TextEncryptor {
 
     private static SecretKeySpec secretKey;
     private static byte[] key;
@@ -34,7 +34,7 @@ public class AESText {
         }
     }
 
-    public static String encrypt(String strToEncrypt, String secret)
+    public static String encryptString(String strToEncrypt, String secret)
     {
         try
         {
@@ -52,7 +52,7 @@ public class AESText {
         return null;
     }
 
-    public static String decrypt(String strToDecrypt, String secret)
+    public static String decryptString(String strToDecrypt, String secret)
     {
         try
         {

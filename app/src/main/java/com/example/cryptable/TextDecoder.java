@@ -42,7 +42,7 @@ public class TextDecoder extends AppCompatActivity {
 
     public void dec(View view){
         String temp = enterText.getText().toString();
-        String rv = AESText.decrypt(temp, secretKey);
+        String rv = TextEncryptor.decryptString(temp, secretKey);
         decryptedText.setText(rv);
         closeKeyboardD();
     }

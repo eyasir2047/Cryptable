@@ -42,7 +42,7 @@ public class TextEncoder extends AppCompatActivity {
 
     public void enc(View view){
         String temp = enterText.getText().toString();
-        String rv = AESText.encrypt(temp, secretKey);
+        String rv = TextEncryptor.encryptString(temp, secretKey);
         encryptedText.setText(rv);
         closeKeyboard();
     }

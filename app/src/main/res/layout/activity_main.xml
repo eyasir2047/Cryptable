@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background">
+    android:background="@drawable/background2">
 
     <TextView
         android:id="@+id/hello"
@@ -28,7 +28,7 @@
         android:layout_marginTop="8dp"
         android:elevation="3dp"
         android:fontFamily="sans-serif-black"
-        android:text="Welcome to Cryptable"
+        android:text="Welcome to Cryptoable"
         android:textColor="#fff"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -175,8 +175,8 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/cryptable"
-        android:elevation="3dp"
+        android:src="@drawable/andriod_lock_img2"
+        android:elevation="4dp"
         app:layout_constraintBottom_toTopOf="@+id/author_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -187,9 +187,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="30dp"
-        android:text=" Made with ❤ by Gaurav Raj"
-        android:textColor="#03082b"
-        android:textSize="14sp"
+        android:text=" Made by Team DRS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
