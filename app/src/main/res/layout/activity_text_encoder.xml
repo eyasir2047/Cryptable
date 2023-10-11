@@ -22,7 +22,7 @@
                 android:layout_height="90dp"
                 android:layout_marginTop="60dp"
                 android:elevation="7dp"
-                android:src="@drawable/cryptable"
+                android:src="@drawable/andriod_lock_img2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
