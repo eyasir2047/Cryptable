@@ -74,7 +74,7 @@
                 android:textSize="14sp"
                 android:background="@color/white"
                 android:padding="10dp"
-                android:hint="Enter your text here..."
+                android:hint="Enter your image here..."
                 android:textColor="@color/navy_blue"
                 android:textColorHint="@color/navy_blue" />
 
